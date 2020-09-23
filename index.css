@@ -1,0 +1,279 @@
+#headerDiv{
+  width: 100%;
+  margin : 0px auto;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width : 100%){
+  .col12{
+     width: 100%;
+  }
+  .col4{
+    width: 40%;
+  }
+  .col7{
+    width: 70%;
+  }
+  img{
+    width : 100%;
+  }
+}
+
+img {
+  width:"550px";
+   height:"433px"
+}
+#navbar {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  #navbar a {
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: inherit;
+    border: 2px;
+    border-block-color: grey;
+  }
+  .header-label{
+      margin-left: 1rem;
+      float :left;
+      font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+  .header-sidebar{
+      margin-left: 2rem;
+      float :left;
+      margin-top: 1.25rem ;
+  }
+  #header-user{
+    float :right; 
+    padding-right: 16px;
+    padding-left : 16px;
+    margin-top: 1.25rem ;
+    
+  }
+  #header-cart{
+    float :right;
+    padding-right: 16px;
+    padding-left : 16px;
+    margin-top: 1.25rem ;
+  }
+ 
+  #header-search{
+    float :right;
+    padding-right: 16px;
+    padding-left : 16px;
+    margin-top: 1.25rem ;
+   }
+   .listingObject{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+   hr{
+    border:none;
+    height: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+   }
+   .header-input{
+      float:right;
+   }
+
+
+
+.vl {
+  border-left: 6px solid lightgrey;
+ 
+}
+
+.breadcrumbs{
+  font-size: 20px;
+  margin-left: 2rem;
+      float :left;
+      margin-top: 1.25rem ;
+}
+.breadcrumbsPath{
+  color: gray;
+}
+
+.imagemain{
+  margin-top: 20px !important;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: #1E90FF	;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  
+
+}
+.button5 {border-radius: 40%;
+  border-style: solid;
+  border-color: #1E90FF	;
+  margin-left: 30%;
+
+  
+}
+.descriptionPage{
+  font-size: 20px;
+      margin-top: 1.25rem ;
+}
+
+.strikediag {
+  background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+}
+
+.withpadding {
+  padding: 0 0.45em;
+  font-size: 20px;
+  color: grey;
+}
+.priceDiv{
+  margin-top: 20px !important;
+  
+}
+.fa-star{
+  float: right;
+  margin-top: 1.75rem;
+  margin-right: .5rem;
+}
+table, th {
+  border: 1px solid gray;
+  margin-top: 1.25rem ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tableChild1{
+  margin-left: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  color:1E90FF;
+
+}
+.table2{
+  border: 1px solid gray;
+  margin-top: 1.25rem ;
+}
+.table2child{
+  border: 1px solid gray;
+  background-color: cornflowerblue;
+  padding-left: 2px;
+}
+.productPrice{
+  font-size: 40px;
+}
+.discountPercent{
+  font-size: 20px;
+  color: limegreen;
+  margin-left: 10px;
+}
+.priceDiv{
+  font-family:Helvetica;
+}
+.availableOffer{
+  font-family:Helvetica;
+}
+.additionalInfo{
+  margin-top: 1.25rem;
+  color:black;
+}
+
+.highlight{
+  display: inline-block;
+}
+.pincode{
+  border: none;
+  border-bottom: 2px solid grey;
+  width: 20%;
+}
+.dot {
+  color:#1E90FF;
+
+ 
+}
+.arrow{
+   color:white;
+   font-size: 20px;
+}
+
+.relative_div {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 3px solid lightgrey;
+  display: inline-block;
+  margin-top: 20px;
+  
+ 
+}
+.circleicon{
+
+  color:black;
+  text-align: center;
+  justify-content: center;
+}
+.addToCart{
+  border: none;
+  border: 2px solid #1E90FF;
+  width: 40%;
+  color:#1E90FF ;
+  display: inline-block;
+  margin-top: 2.5rem;
+  text-align: center;
+  margin-left: 1.5rem;
+ 
+}
+.buyNow {
+  border: none;
+  border: 2px solid #1E90FF;
+  width: 40%;
+  color:white ;
+  background-color: #1E90FF;
+  display: inline-block;
+  text-align: center;
+ 
+}
+.specifcation{
+  float:right;
+  font-size: 30px;
+  padding-right: 20px;
+}
+.resolution_Sound{
+  padding-left: 95px;
+}
+.resolution_Rate{
+  padding-left: 95px;
+}
+
+a{
+  color:#1E90FF !important;
+}
+.resolution_pixel{
+  width:45%
+}
+.sellerdetailsmain{
+  position: absolute;
+  right:10px;
+  display: inline-block;
+}
+.sellerdetails{
+  padding-left: 50px;
+}
